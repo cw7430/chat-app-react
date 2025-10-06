@@ -1,0 +1,49 @@
+.systemMessageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.systemMessage {
+  background-color: #55667758;
+  border-radius: 100px;
+  text-align: center;
+  color: white;
+  padding: 2px 15px;
+  font-size: 14px;
+}
+
+.myMessageContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+
+.myMessage {
+  background-color: #f7e600;
+  border-radius: 8px;
+  padding: 8px;
+  max-width: 200px;
+  font-size: 12px;
+}
+
+.yourMessageContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.yourMessage {
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  max-width: 200px;
+  font-size: 12px;
+}
+
+.profileImage {
+  width: 38px;
+  height: 38px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
