@@ -43,7 +43,7 @@ export default function MessageContainer(props: Props) {
                                   ? {visibility: "visible"}
                                   : {visibility: "hidden"}
                             }
-                        />
+                         alt="프로필"/>
                         <div className={styles.yourMessage}>{message.chat}</div>
                       </div>
                   )
