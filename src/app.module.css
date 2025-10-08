@@ -1,8 +1,7 @@
 .app {
-  height:100vh;
-  background-image: url("/background.png");
-  margin-left: auto;
-  margin-right: auto;
+  height: 100vh;
+  background: linear-gradient(180deg, #c9dff1 0%, #b3cbe1 50%, #a2bdd7 100%);
+  margin: 0 auto;
   max-width: 28rem;
   position: relative;
 }
